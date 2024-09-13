@@ -1,0 +1,48 @@
+name: latana
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  local_auth: ^2.1.6
+  flutter_svg: ^2.0.7
+  animated_snack_bar: ^0.3.1
+  loading_indicator: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: SFUIText
+      fonts:
+        - asset: fonts/SFUIText_Bold.ttf
+        - asset: fonts/SFUIText_BoldItalic.ttf
+        - asset: fonts/SFUIText_Heavy.ttf
+        - asset: fonts/SFUIText_HeavyItalic.ttf
+        - asset: fonts/SFUIText_Light.ttf
+        - asset: fonts/SFUIText_LightItalic.ttf
+        - asset: fonts/SFUIText_Medium.ttf
+        - asset: fonts/SFUIText_MediumItalic.ttf
+        - asset: fonts/SFUIText_Regular.ttf
+        - asset: fonts/SFUIText_RegularItalic.ttf
+        - asset: fonts/SFUIText_Semibold.ttf
+        - asset: fonts/SFUIText_SemiboldItalic.ttf
+
+  assets:
+    - assets/
